@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Colores principales -->
+    <color name="orange_primary">#E67E22</color>      <!-- Color naranja principal (balón de baloncesto) -->
+    <color name="orange_dark">#D35400</color>         <!-- Versión oscura del naranja para barras de estado -->
+    <color name="orange_light">#F39C12</color>        <!-- Versión clara del naranja para acentos -->
+
+    <!-- Colores neutros -->
+    <color name="white">#FFFFFF</color>               <!-- Blanco para fondos y textos -->
+    <color name="black">#000000</color>               <!-- Negro puro para textos importantes -->
+    <color name="black_soft">#333333</color>          <!-- Negro suave para textos secundarios -->
+
+    <!-- Colores complementarios -->
+    <color name="gray_light">#F5F5F5</color>          <!-- Gris claro para fondos alternativos -->
+    <color name="gray_medium">#DDDDDD</color>         <!-- Gris medio para bordes y divisores -->
+    <color name="gray_dark">#777777</color>           <!-- Gris oscuro para textos terciarios -->
+
+    <!-- Colores funcionales -->
+    <color name="green_success">#2ECC71</color>       <!-- Verde para acciones positivas -->
+    <color name="red_error">#E74C3C</color>           <!-- Rojo para errores y eliminación -->
+    <color name="blue_info">#3498DB</color>           <!-- Azul para información y acciones secundarias -->
+
+    <selector name="bottom_nav_colors">
+        <item android:color="@color/orange_primary" android:state_checked="true" />
+        <item android:color="@color/gray_dark" android:state_checked="false" />
+    </selector>
+
+</resources>

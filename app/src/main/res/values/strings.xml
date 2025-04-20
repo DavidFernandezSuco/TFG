@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General app strings -->
+    <string name="app_name">BaloncestoBaseApp</string>
+    <string name="app_logo">Logo de la aplicación</string>
+
+    <!-- Authentication strings -->
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="register">Regístrate</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="name">Nombre completo</string>
+    <string name="phone">Teléfono</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="accept_terms">Acepto los términos y condiciones</string>
+    <string name="register_button">Registrarse</string>
+    <string name="already_account">¿Ya tienes cuenta?</string>
+
+    <!-- Strings para Dashboard -->
+    <string name="upcoming_matches">Próximos partidos</string>
+    <string name="no_upcoming_matches">No hay partidos próximos</string>
+    <string name="my_teams">Mis equipos</string>
+    <string name="no_teams_dash">No tienes equipos creados</string>
+    <string name="quick_actions">Acciones rápidas</string>
+    <string name="add_player">Añadir Jugador</string>
+    <string name="add_team">Añadir Equipo</string>
+    <string name="add_match">Añadir Partido</string>
+    <string name="recent_stats">Estadísticas recientes</string>
+    <string name="no_recent_stats">No hay estadísticas recientes</string>
+    <string name="view_all_stats">Ver todas</string>
+    <string name="profile">Perfil</string>
+
+
+    <!-- Navigation strings -->
+    <string name="home">Inicio</string>
+    <string name="teams">Equipos</string>
+    <string name="matches">Partidos</string>
+    <string name="stats">Estadísticas</string>
+    <string name="settings">Ajustes</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!-- Teams strings -->
+    <string name="team_name">Nombre del equipo</string>
+    <string name="category">Categoría</string>
+    <string name="season">Temporada</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="edit_team">Editar equipo</string>
+    <string name="delete_team">Eliminar equipo</string>
+    <string name="delete_team_confirmation">¿Estás seguro de que quieres eliminar este equipo?</string>
+    <string name="filter_by_season">Filtrar por temporada</string>
+    <string name="all_seasons">Todas las temporadas</string>
+    <string name="no_teams">No hay equipos disponibles</string>
+    <string name="team_details">Detalles del equipo</string>
+    <string name="schedule_match">Programar partido</string>
+    <string name="players_list">Jugadores</string>
+    <string name="no_players_team">No hay jugadores registrados en este equipo</string>
+
+    <!-- Categories for basketball -->
+    <string-array name="categorias_baloncesto">
+        <item>Senior</item>
+        <item>Junior</item>
+        <item>Cadete</item>
+        <item>Infantil</item>
+        <item>Alevín</item>
+        <item>Benjamín</item>
+        <item>PreBenjamín</item>
+    </string-array>
+
+    <!-- Players strings -->
+    <string name="player_name">Nombre</string>
+    <string name="player_last_name">Apellidos</string>
+    <string name="player_number">Número</string>
+    <string name="player_position">Posición</string>
+    <string name="player_height">Altura (cm)</string>
+    <string name="player_age">Edad</string>
+    <string name="player_team">Equipo</string>
+    <string name="select_player_photo">Seleccionar foto</string>
+    <string name="add_new_player">Añadir jugador</string>
+    <string name="edit_player">Editar jugador</string>
+    <string name="delete_player">Eliminar jugador</string>
+    <string name="delete_player_confirmation">¿Estás seguro de que quieres eliminar este jugador?</string>
+    <string name="no_players">No hay jugadores disponibles</string>
+    <string name="player_details">Detalles del jugador</string>
+
+    <!-- Player positions -->
+    <string-array name="posiciones_jugador">
+        <item>Base</item>
+        <item>Escolta</item>
+        <item>Alero</item>
+        <item>Ala-Pívot</item>
+        <item>Pívot</item>
+    </string-array>
+
+    <!-- Matches strings -->
+    <string name="match_date">Fecha</string>
+    <string name="match_time">Hora</string>
+    <string name="match_location">Lugar</string>
+    <string name="home_team">Equipo local</string>
+    <string name="away_team">Equipo visitante</string>
+    <string name="match_status">Estado del partido</string>
+    <string name="match_score">Resultado</string>
+    <string name="new_match">Nuevo partido</string>
+    <string name="edit_match">Editar partido</string>
+    <string name="delete_match">Eliminar partido</string>
+    <string name="delete_match_confirmation">¿Estás seguro de que quieres eliminar este partido?</string>
+    <string name="select_date">Seleccionar fecha</string>
+    <string name="select_time">Seleccionar hora</string>
+    <string name="no_matches">No hay partidos disponibles</string>
+    <string name="match_details">Detalles del partido</string>
+    <string name="start_match">Iniciar partido</string>
+    <string name="end_match">Finalizar partido</string>
+    <string name="register_stats">Registrar estadísticas</string>
+
+    <!-- Match status -->
+    <string-array name="estados_partido">
+        <item>pendiente</item>
+        <item>jugado</item>
+        <item>cancelado</item>
+    </string-array>
+
+    <!-- Stats strings -->
+    <string name="stats_title">Estadísticas</string>
+    <string name="stats_filters">Filtros</string>
+    <string name="select_team">Equipo</string>
+    <string name="select_player">Jugador</string>
+    <string name="apply_filters">Aplicar filtros</string>
+    <string name="all_players">Todos los jugadores</string>
+    <string name="all_teams">Todos los equipos</string>
+    <string name="general_stats">General</string>
+    <string name="offensive_stats">Ofensiva</string>
+    <string name="defensive_stats">Defensiva</string>
+    <string name="no_stats">No hay estadísticas disponibles</string>
+    <string name="points_abbr">PTS</string>
+    <string name="rebounds_abbr">REB</string>
+    <string name="assists_abbr">AST</string>
+    <string name="points">Puntos</string>
+    <string name="rebounds">Rebotes</string>
+    <string name="assists">Asistencias</string>
+    <string name="fouls">Faltas</string>
+    <string name="minutes">Minutos</string>
+    <string name="three_pointers">Triples</string>
+    <string name="field_goals">Tiros de campo</string>
+    <string name="free_throws">Tiros libres</string>
+    <string name="steals">Robos</string>
+    <string name="blocks">Tapones</string>
+    <string name="turnovers">Pérdidas</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+
+    <!-- Game stats -->
+    <string name="game_stats">Estadísticas del partido</string>
+    <string name="quarter">Cuarto</string>
+    <string name="save_stats">Guardar estadísticas</string>
+    <string name="stats_saved">Estadísticas guardadas correctamente</string>
+
+    <!-- Profile strings -->
+    <string name="my_profile">Mi perfil</string>
+    <string name="change_photo">Cambiar foto</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="save_changes">Guardar cambios</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="password_reset">Restablecer contraseña</string>
+    <string name="password_reset_sent">Se ha enviado un correo para restablecer tu contraseña</string>
+
+    <!-- Settings strings -->
+    <string name="notifications">Notificaciones</string>
+    <string name="enable_notifications">Activar notificaciones</string>
+    <string name="app_theme">Tema de la aplicación</string>
+    <string name="select_theme">Seleccionar tema</string>
+    <string name="language">Idioma</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="save_settings">Guardar ajustes</string>
+    <string name="app_info">Información de la aplicación</string>
+    <string name="app_version">Versión: 1.0.0</string>
+    <string name="app_developer">Desarrollado para proyecto final DAM</string>
+    <string name="app_copyright">© 2023 - Todos los derechos reservados</string>
+
+    <!-- Common actions -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="back">Volver</string>
+
+    <!-- Error messages -->
+    <string name="error_authentication">Error de autenticación</string>
+    <string name="error_required_field">Este campo es obligatorio</string>
+    <string name="error_password_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_passwords_match">Las contraseñas no coinciden</string>
+    <string name="error_terms">Debes aceptar los términos y condiciones</string>
+    <string name="error_email_for_reset">Introduce tu email para recuperar la contraseña</string>
+    <string name="error_loading_data">Error al cargar datos</string>
+    <string name="error_saving_data">Error al guardar datos</string>
+</resources>

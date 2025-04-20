@@ -1,0 +1,59 @@
+<resources>
+    <!-- Tema base de la aplicación -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_dark</item>
+        <item name="colorAccent">@color/orange_light</item>
+
+        <!-- Configuración de texto -->
+        <item name="android:textColorPrimary">@color/black_soft</item>
+        <item name="android:textColorSecondary">@color/gray_dark</item>
+
+        <!-- Fondo de la aplicación -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Estilo de botones -->
+        <item name="materialButtonStyle">@style/AppTheme.Button</item>
+    </style>
+
+    <!-- Estilo para botones normales -->
+    <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/orange_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Estilo para botones de contorno -->
+    <style name="AppTheme.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/orange_primary</item>
+        <item name="android:textColor">@color/orange_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Estilo para tarjetas -->
+    <style name="AppTheme.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Estilo para campos de texto -->
+    <style name="AppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/orange_primary</item>
+        <item name="hintTextColor">@color/gray_dark</item>
+    </style>
+
+    <!-- Estilo para FAB (Floating Action Button) -->
+    <style name="AppTheme.Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/orange_primary</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <!-- Estilo para la barra de navegación inferior -->
+    <style name="AppTheme.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <item name="itemRippleColor">@color/orange_light</item>
+    </style>
+</resources>
