@@ -16,8 +16,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.tfg.R;
-import com.example.tfg.adapters.EquiposAdapter;
-import com.example.tfg.adapters.PartidosAdapter;
 import com.example.tfg.firebase.FirebaseManager;
 import com.example.tfg.model.Equipo;
 import com.example.tfg.model.Partido;
@@ -34,7 +32,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -49,8 +46,8 @@ public class DashboardActivity extends AppCompatActivity implements BottomNaviga
     private BottomNavigationView bottomNavigation;
 
     // Adaptadores
-    private PartidosAdapter partidosAdapter;
-    private EquiposAdapter equiposAdapter;
+    private com.example.tfg.adapter.PartidosAdapter partidosAdapter;
+    private com.example.tfg.adapter.EquiposAdapter equiposAdapter;
 
     // FirebaseManager
     private FirebaseManager firebaseManager;
@@ -101,13 +98,13 @@ public class DashboardActivity extends AppCompatActivity implements BottomNaviga
         // Configurar RecyclerView de partidos
         rvUpcomingMatches.setLayoutManager(new LinearLayoutManager(this));
         proximosPartidos = new ArrayList<>();
-        partidosAdapter = new PartidosAdapter(proximosPartidos);
+        partidosAdapter = new com.example.tfg.adapter.PartidosAdapter(proximosPartidos);
         rvUpcomingMatches.setAdapter(partidosAdapter);
 
         // Configurar RecyclerView de equipos
         rvMyTeams.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         misEquipos = new ArrayList<>();
-        equiposAdapter = new EquiposAdapter(misEquipos);
+        equiposAdapter = new com.example.tfg.adapter.EquiposAdapter(misEquipos);
         rvMyTeams.setAdapter(equiposAdapter);
     }
 

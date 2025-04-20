@@ -12,15 +12,78 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="31">
+
+        <!-- Actividades de autenticación -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.auth.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false" />
+
+        <!-- Dashboard principal -->
+        <activity
+            android:name=".ui.main.DashboardActivity"
+            android:exported="false" />
+
+        <!-- Actividades de equipos -->
+        <activity
+            android:name=".ui.team.TeamsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.team.TeamFormActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.team.TeamDetailActivity"
+            android:exported="false" />
+
+        <!-- Actividades de jugadores -->
+        <activity
+            android:name=".ui.player.PlayersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.player.PlayerFormActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.player.PlayerDetailActivity"
+            android:exported="false" />
+
+        <!-- Actividades de partidos -->
+        <activity
+            android:name=".ui.match.MatchesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.match.MatchFormActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.match.MatchDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.match.GameStatsActivity"
+            android:exported="false" />
+
+        <!-- Actividades de estadísticas -->
+        <activity
+            android:name=".ui.stats.StatsActivity"
+            android:exported="false" />
+
+        <!-- Actividades de perfil -->
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

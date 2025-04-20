@@ -1,4 +1,6 @@
 package com.example.tfg.ui.player;
 
-public class PlayerDetailActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class PlayerDetailActivity extends AppCompatActivity {
 }

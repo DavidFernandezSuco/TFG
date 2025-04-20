@@ -1,4 +1,6 @@
 package com.example.tfg.ui.match;
 
-public class MatchFormActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MatchFormActivity extends AppCompatActivity {
 }

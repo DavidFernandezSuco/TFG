@@ -1,4 +1,6 @@
 package com.example.tfg.ui.team;
 
-public class TeamFormActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class TeamFormActivity extends AppCompatActivity {
 }

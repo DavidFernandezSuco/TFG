@@ -36,26 +36,78 @@ public class Partido {
     }
 
     //getters y setters
+
+
     public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
+
     public String getEquipoLocalId() {
         return equipoLocalId;
     }
+
     public void setEquipoLocalId(String equipoLocalId) {
         this.equipoLocalId = equipoLocalId;
     }
+
     public String getEquipoVisitanteId() {
         return equipoVisitanteId;
     }
+
     public void setEquipoVisitanteId(String equipoVisitanteId) {
         this.equipoVisitanteId = equipoVisitanteId;
     }
+
     public String getNombreEquipoLocal() {
         return nombreEquipoLocal;
+    }
+
+    public void setNombreEquipoLocal(String nombreEquipoLocal) {
+        this.nombreEquipoLocal = nombreEquipoLocal;
+    }
+
+    public String getNombreEquipoVisitante() {
+        return nombreEquipoVisitante;
+    }
+
+    public void setNombreEquipoVisitante(String nombreEquipoVisitante) {
+        this.nombreEquipoVisitante = nombreEquipoVisitante;
+    }
+
+    public long getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(long fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getLugar() {
+        return lugar;
+    }
+
+    public void setLugar(String lugar) {
+        this.lugar = lugar;
+    }
+
+    public int getPuntosLocal() {
+        return puntosLocal;
+    }
+
+    public void setPuntosLocal(int puntosLocal) {
+        this.puntosLocal = puntosLocal;
+    }
+
+    public int getPuntosVisitante() {
+        return puntosVisitante;
+    }
+
+    public void setPuntosVisitante(int puntosVisitante) {
+        this.puntosVisitante = puntosVisitante;
     }
 
     public String getEstado() {
@@ -64,6 +116,14 @@ public class Partido {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public String getEntrenadorId() {
+        return entrenadorId;
+    }
+
+    public void setEntrenadorId(String entrenadorId) {
+        this.entrenadorId = entrenadorId;
     }
 
     // Método para convertir el objeto a un Map para Firebase
