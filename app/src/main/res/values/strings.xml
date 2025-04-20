@@ -32,6 +32,8 @@
     <string name="no_recent_stats">No hay estadísticas recientes</string>
     <string name="view_all_stats">Ver todas</string>
     <string name="profile">Perfil</string>
+    <string name="settings">Ajustes</string>
+    <string name="logout">Cerrar sesión</string>
 
 
     <!-- Navigation strings -->
