@@ -20,9 +20,4 @@
     <color name="red_error">#E74C3C</color>           <!-- Rojo para errores y eliminación -->
     <color name="blue_info">#3498DB</color>           <!-- Azul para información y acciones secundarias -->
 
-    <selector name="bottom_nav_colors">
-        <item android:color="@color/orange_primary" android:state_checked="true" />
-        <item android:color="@color/gray_dark" android:state_checked="false" />
-    </selector>
-
 </resources>

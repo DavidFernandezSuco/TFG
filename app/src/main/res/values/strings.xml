@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- General app strings -->
+    <!-- Strings generales de la aplicación -->
     <string name="app_name">BaloncestoBaseApp</string>
     <string name="app_logo">Logo de la aplicación</string>
 
-    <!-- Authentication strings -->
+    <!-- Strings de autenticación -->
     <string name="email">Correo electrónico</string>
     <string name="password">Contraseña</string>
     <string name="login">Iniciar sesión</string>
@@ -32,11 +32,9 @@
     <string name="no_recent_stats">No hay estadísticas recientes</string>
     <string name="view_all_stats">Ver todas</string>
     <string name="profile">Perfil</string>
-    <string name="settings">Ajustes</string>
-    <string name="logout">Cerrar sesión</string>
 
 
-    <!-- Navigation strings -->
+    <!-- Strings de navegación -->
     <string name="home">Inicio</string>
     <string name="teams">Equipos</string>
     <string name="matches">Partidos</string>
@@ -44,7 +42,7 @@
     <string name="settings">Ajustes</string>
     <string name="logout">Cerrar sesión</string>
 
-    <!-- Teams strings -->
+    <!-- Strings de equipos -->
     <string name="team_name">Nombre del equipo</string>
     <string name="category">Categoría</string>
     <string name="season">Temporada</string>
@@ -60,7 +58,7 @@
     <string name="players_list">Jugadores</string>
     <string name="no_players_team">No hay jugadores registrados en este equipo</string>
 
-    <!-- Categories for basketball -->
+    <!-- Categorías de baloncesto -->
     <string-array name="categorias_baloncesto">
         <item>Senior</item>
         <item>Junior</item>
@@ -71,7 +69,7 @@
         <item>PreBenjamín</item>
     </string-array>
 
-    <!-- Players strings -->
+    <!-- Strings de jugadores -->
     <string name="player_name">Nombre</string>
     <string name="player_last_name">Apellidos</string>
     <string name="player_number">Número</string>
@@ -87,7 +85,7 @@
     <string name="no_players">No hay jugadores disponibles</string>
     <string name="player_details">Detalles del jugador</string>
 
-    <!-- Player positions -->
+    <!-- Posiciones de jugadores -->
     <string-array name="posiciones_jugador">
         <item>Base</item>
         <item>Escolta</item>
@@ -96,7 +94,7 @@
         <item>Pívot</item>
     </string-array>
 
-    <!-- Matches strings -->
+    <!-- Strings de partidos -->
     <string name="match_date">Fecha</string>
     <string name="match_time">Hora</string>
     <string name="match_location">Lugar</string>
@@ -116,14 +114,14 @@
     <string name="end_match">Finalizar partido</string>
     <string name="register_stats">Registrar estadísticas</string>
 
-    <!-- Match status -->
+    <!-- Estados de partido -->
     <string-array name="estados_partido">
-        <item>pendiente</item>
-        <item>jugado</item>
-        <item>cancelado</item>
+        <item>Pendiente</item>
+        <item>Jugado</item>
+        <item>Cancelado</item>
     </string-array>
 
-    <!-- Stats strings -->
+    <!-- Strings de estadísticas -->
     <string name="stats_title">Estadísticas</string>
     <string name="stats_filters">Filtros</string>
     <string name="select_team">Equipo</string>
@@ -151,14 +149,15 @@
     <string name="turnovers">Pérdidas</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
+    <string name="matches_played">Partidos jugados</string>
 
-    <!-- Game stats -->
+    <!-- Estadísticas de juego -->
     <string name="game_stats">Estadísticas del partido</string>
     <string name="quarter">Cuarto</string>
     <string name="save_stats">Guardar estadísticas</string>
     <string name="stats_saved">Estadísticas guardadas correctamente</string>
 
-    <!-- Profile strings -->
+    <!-- Strings de perfil -->
     <string name="my_profile">Mi perfil</string>
     <string name="change_photo">Cambiar foto</string>
     <string name="full_name">Nombre completo</string>
@@ -167,7 +166,7 @@
     <string name="password_reset">Restablecer contraseña</string>
     <string name="password_reset_sent">Se ha enviado un correo para restablecer tu contraseña</string>
 
-    <!-- Settings strings -->
+    <!-- Strings de ajustes -->
     <string name="notifications">Notificaciones</string>
     <string name="enable_notifications">Activar notificaciones</string>
     <string name="app_theme">Tema de la aplicación</string>
@@ -180,7 +179,7 @@
     <string name="app_developer">Desarrollado para proyecto final DAM</string>
     <string name="app_copyright">© 2023 - Todos los derechos reservados</string>
 
-    <!-- Common actions -->
+    <!-- Acciones comunes -->
     <string name="save">Guardar</string>
     <string name="cancel">Cancelar</string>
     <string name="delete">Eliminar</string>
@@ -188,7 +187,7 @@
     <string name="confirm">Confirmar</string>
     <string name="back">Volver</string>
 
-    <!-- Error messages -->
+    <!-- Mensajes de error -->
     <string name="error_authentication">Error de autenticación</string>
     <string name="error_required_field">Este campo es obligatorio</string>
     <string name="error_password_length">La contraseña debe tener al menos 6 caracteres</string>
